@@ -1,0 +1,1 @@
+xjc -p file.generated BattleShipGame.xsd

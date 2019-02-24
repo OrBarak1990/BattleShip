@@ -1,0 +1,64 @@
+פבר 21, 2017 9:58:31 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+פבר 21, 2017 9:58:31 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+פבר 21, 2017 9:58:32 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+פבר 21, 2017 9:58:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+פבר 21, 2017 9:58:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+פבר 21, 2017 9:58:32 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 897 ms
+פבר 21, 2017 9:58:32 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+פבר 21, 2017 9:58:32 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.40
+פבר 21, 2017 9:58:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\aviad\projects\java\Java and Internet course\examples\Online Chat V2\3rd\apache-tomcat-7.0.40\webapps\docs
+פבר 21, 2017 9:58:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\aviad\projects\java\Java and Internet course\examples\Online Chat V2\3rd\apache-tomcat-7.0.40\webapps\examples
+פבר 21, 2017 9:58:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\aviad\projects\java\Java and Internet course\examples\Online Chat V2\3rd\apache-tomcat-7.0.40\webapps\host-manager
+פבר 21, 2017 9:58:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\aviad\projects\java\Java and Internet course\examples\Online Chat V2\3rd\apache-tomcat-7.0.40\webapps\manager
+פבר 21, 2017 9:58:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\aviad\projects\java\Java and Internet course\examples\Online Chat V2\3rd\apache-tomcat-7.0.40\webapps\ROOT
+פבר 21, 2017 9:58:32 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+פבר 21, 2017 9:58:32 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+פבר 21, 2017 9:58:32 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 397 ms
+פבר 21, 2017 9:58:54 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+פבר 21, 2017 9:58:54 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+פבר 21, 2017 9:58:55 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+פבר 21, 2017 9:58:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+פבר 21, 2017 9:58:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+פבר 21, 2017 9:58:55 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 769 ms
+פבר 21, 2017 9:58:55 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+פבר 21, 2017 9:58:55 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.40
+פבר 21, 2017 9:58:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\aviad\projects\java\Java and Internet course\examples\Online Chat V2\3rd\apache-tomcat-7.0.40\webapps\docs
+פבר 21, 2017 9:58:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\aviad\projects\java\Java and Internet course\examples\Online Chat V2\3rd\apache-tomcat-7.0.40\webapps\examples
+פבר 21, 2017 9:58:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\aviad\projects\java\Java and Internet course\examples\Online Chat V2\3rd\apache-tomcat-7.0.40\webapps\host-manager
+פבר 21, 2017 9:58:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\aviad\projects\java\Java and Internet course\examples\Online Chat V2\3rd\apache-tomcat-7.0.40\webapps\manager
+פבר 21, 2017 9:58:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\aviad\projects\java\Java and Internet course\examples\Online Chat V2\3rd\apache-tomcat-7.0.40\webapps\ROOT
+פבר 21, 2017 9:58:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+פבר 21, 2017 9:58:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+פבר 21, 2017 9:58:55 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 356 ms

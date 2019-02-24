@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Lobby</title>
+    <script src="../../common/jquery-2.0.3.min.js"></script>
+    <script src="../../common/context-path-helper.js"></script>
+    <script src="lobby.js"></script>
+    <link rel="stylesheet" href="../../common/bootstrap.min.css">
+    <link rel="stylesheet" href="lobby.css">
+</head>
+<body class="gamePage">
+<h1 align="center">Lobby</h1>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="sidebar">
+                <h4>Active Players</h4>
+                <div class="clearfix">
+                    <div class="input">
+                        <ul id="playersList">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="sidebar">
+                <h4>Active Boards</h4>
+                <div class="clearfix">
+                    <div class="input">
+                        <ul id="boardsList">
+                        </ul>
+                    </div>
+                    <div id="fullBoardError"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h4>upload board</h4>
+            <form method="POST" enctype="multipart/form-data" id="fileUploadForm">
+                <div class="form-group">
+                <input type="text" id="fileName" name="fileName" class="form-group" placeholder="board name"/>
+                    <br/><br/>
+                    <span id="errorFileName" class="has-error"></span>
+                </div>
+                <div class="form-group">
+                    <input type="file" id="file" name="file"/><br/><br/>
+                    <p id="uploadError"></p>
+                </div>
+                <input type="submit" value="Submit" id="btnSubmit"/><span id="errorFile" class="has-error"></span>
+            </form>
+            <div class="row col-xs-1 margin">
+                <div align="center" class="buttonMargin" id = "enterGame"><button class="btn btn-primary glyphicon-ok">Enter Game</button></div>
+                <div align="center" class="buttonMargin" id = "viewGame"><button class="btn btn-primary glyphicon-ok">View Game</button></div>
+                <div align="center" class="buttonMargin" id = "deleteGame"><button class="btn btn-warning glyphicon-remove">Delete Game</button></div>
+                <div align="center" class="buttonMargin" id="logout"><button class="btn btn-danger glyphicon-alert">Logout</button></div>
+                <div id="buttonErrors"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

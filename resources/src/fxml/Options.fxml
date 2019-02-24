@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="box" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="142.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OptionsController">
+   <children>
+      <ComboBox fx:id="cssStyle" prefWidth="150.0">
+         <VBox.margin>
+            <Insets bottom="5.0" />
+         </VBox.margin></ComboBox>
+      <ComboBox fx:id="animation" prefWidth="150.0">
+         <VBox.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </VBox.margin></ComboBox>
+      <Button fx:id="endGame" mnemonicParsing="false" onAction="#endGameAction" prefWidth="150.0" text="End Game">
+         <VBox.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </VBox.margin></Button>
+      <Button fx:id="exit" mnemonicParsing="false" onAction="#exitAction" prefWidth="150.0" text="Exit Game">
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin></Button>
+   </children>
+</VBox>

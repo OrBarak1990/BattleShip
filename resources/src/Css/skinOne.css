@@ -1,0 +1,33 @@
+.root{
+    -fx-background-image: url("../Images/batleSee.jpg");
+    -fx-background-color: #cccccc;
+    -fx-font-style: oblique;
+    -fx-text-fill: chartreuse;
+}
+.gameBoard{
+    -fx-background-image: url("../Images/missle.jpg");
+    -fx-background-color: #cccccc;
+}
+.button{
+    -fx-background-radius: 35%;
+    -fx-font-style: oblique;
+}
+.label{
+    -fx-border-radius: 35%;
+}
+.mine{
+    -fx-background-image: url("../Images/bluetnt2.png");
+    -fx-background-color: #cccccc;
+}
+.shipHit{
+    -fx-background-image: url("../Images/fireball.jpg");
+    -fx-background-color: #cccccc;
+    -fx-border-radius: 25px;
+}
+.shipMissed{
+    -fx-background-image: url("../Images/missedTarget.png");
+    -fx-background-color: #cccccc;
+}
+.shipCell{
+    -fx-background-image: url("../Images/ship.png");
+}

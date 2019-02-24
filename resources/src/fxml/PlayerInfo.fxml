@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="allMenuBox" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PlayerInfoController">
+   <children>
+      <Label fx:id="hits" alignment="CENTER_RIGHT" text="Hits">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="player" text="Player">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="score" text="Score">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="missed" text="Missed">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="averageTurn" text="Average Turn">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="availableMines" text="Available Mines">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Separator prefWidth="200.0" />
+      <VBox fx:id="buttonsBox" alignment="CENTER">
+         <children>
+            <Button fx:id="attack" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#attackAction" prefWidth="150.0" text="Attack">
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin></Button>
+            <Button fx:id="placeMine" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#placeMineAction" prefWidth="150.0" text="Place Mine">
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin></Button>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </VBox>
+   </children>
+</VBox>

@@ -1,0 +1,36 @@
+.root {
+    -fx-background-image: url("../Images/sea2.jpg");
+    -fx-background-color: #cccccc;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+.gameBoard{
+    -fx-background-image: url("../Images/panel3.jpg");
+    -fx-background-color: #cccccc;
+}
+.button{
+    -fx-text-fill: deeppink;
+    -fx-background-radius: 100%;
+
+}
+.label{
+    -fx-text-fill: deeppink;
+    -fx-border-radius: 100%;
+    -fx-font-style: italic;
+}
+.mine{
+    -fx-background-image: url("../Images/bluetnt2.png");
+    -fx-background-color: #cccccc;
+}
+.shipHit{
+    -fx-background-image: url("../Images/fireball.jpg");
+    -fx-background-color: #cccccc;
+    -fx-border-radius: 25px;
+}
+.shipMissed{
+    -fx-background-image: url("../Images/missedTarget.png");
+    -fx-background-color: #cccccc;
+}
+.shipCell{
+    -fx-background-image: url("../Images/ship.png");
+}
